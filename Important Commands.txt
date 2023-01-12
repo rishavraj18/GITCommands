@@ -1,0 +1,6 @@
+* To reset the changes after adding files to Stage:
+git reset
+
+* To add all the files to stage except some file/files
+git add --all -- ':!path/to/file1.txt' ':!path/to/file2.txt' ':!path/to/folder1/*'
+e.g. git add --all -- ':!SortingAlgorithms/InsertionSort.java'
